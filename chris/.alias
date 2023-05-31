@@ -1,0 +1,9 @@
+# chris_alias
+
+alias vim='nvim'
+alias ll='ls'
+alias ls='ls -pa'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../../'

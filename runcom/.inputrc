@@ -1,0 +1,10 @@
+# chris_inputrc
+
+# Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# List all matches when multiple possible
+set show-all-if-ambiguous on
+
+# Shift-Tab flips through autocompletion
+"\e[Z": menu-complete
