@@ -68,3 +68,32 @@ else
 		chsh -s $(BIN)/bash; \
 	fi
 endif
+
+git: brew
+	$(BIN)/brew install git git-extras
+
+npm: brew-packages
+	$(BIN)/fnm install --lts
+
+ruby: brew
+	$(BIN)/brew install ruby
+
+rust: brew
+	$(BIN)/brew install rust
+
+brew-packages: brew
+	$(BIN)/brew bundle --file=$(DOTFILES_DIR)/install/brewfile || true
+
+cask-apps: brew
+	$(BIN)/brew bundle --file=$(DOTFILES_DIR)/install/caskfile || true
+	defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"
+#	for EXT in $$(cat install/codefile); do code --install-extension $$EXT; done
+
+node-packages: npm
+	eval $$(fnm env); npm install -g $(shell cat install/npmfile)
+
+rust-packages: rust
+	$(BIN)/cargo install $(shell cat install/rustfile)
+
+test:
+	eval $$(fnm env); bats test

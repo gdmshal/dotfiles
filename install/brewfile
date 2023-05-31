@@ -13,7 +13,6 @@ brew "topgrade"
 # fs/network
 brew "croc"
 brew "httpie"
-brew "ngrok"
 brew "ssh-copy-id"
 brew "tree"
 brew "unar"

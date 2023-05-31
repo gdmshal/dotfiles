@@ -1,0 +1,92 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "9f04bc36e301f79cfb310196db8042e40a5ab1d0"
+      },
+      "homebrew/cask-drivers": {
+        "revision": "8f93ee9994108d7a9be1b5c35a17095217c1a9c6"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "b56832ffe50bedd16fee72642b7c1af3ba2beff2"
+      },
+      "homebrew/cask-versions": {
+        "revision": "9ec19a56cc19d072e11a30ed754e1b616e297658"
+      }
+    },
+    "cask": {
+      "docker": {
+        "version": "4.20.0,109717",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "font-fira-code": {
+        "version": "6.2",
+        "options": {
+          "full_name": "font-fira-code"
+        }
+      },
+      "font-hack": {
+        "version": "3.003",
+        "options": {
+          "full_name": "font-hack"
+        }
+      },
+      "maccy": {
+        "version": "0.26.2",
+        "options": {
+          "full_name": "maccy"
+        }
+      },
+      "raycast": {
+        "version": "1.50.0",
+        "options": {
+          "full_name": "raycast"
+        }
+      },
+      "slack": {
+        "version": "4.32.122",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "sourcetree": {
+        "version": "4.2.3,252",
+        "options": {
+          "full_name": "sourcetree"
+        }
+      },
+      "spotify": {
+        "version": "1.2.12.902,1924b088,215",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "vlc": {
+        "version": "3.0.18",
+        "options": {
+          "full_name": "vlc"
+        }
+      },
+      "ngrok": {
+        "version": "3.3.0,n8BKDhBpoJP,a",
+        "options": {
+          "full_name": "ngrok"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "4.0.20",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "13.2.0.0.1.1638488800",
+        "Xcode": "12.4",
+        "macOS": "11.7.7"
+      }
+    }
+  }
+}

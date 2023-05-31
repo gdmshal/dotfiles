@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 
 cask "docker"
+cask "ngrok"
 cask "font-fira-code"
 cask "font-hack"
 cask "maccy"
